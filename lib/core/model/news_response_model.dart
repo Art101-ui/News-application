@@ -1,18 +1,18 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:json_serializable/json_serializable.dart';
+
 
 import 'article.dart';
 
 part 'news_response_model.g.dart';
 
-@JsonSerializable(nullable: false)
+@JsonSerializable()
 class NewsResponse {
   NewsResponse();
   @JsonKey(name: 'status')
   String? status;
 
   @JsonKey(name: 'totalResults')
-  String? totalResults;
+  int? totalResults;
 
   @JsonKey(name: 'articles')
   List<Article>? articles;

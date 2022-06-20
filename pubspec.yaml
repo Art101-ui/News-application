@@ -29,9 +29,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dio: ^3.0.10
-  json_serializable: ^3.5.1
-  get: ^3.24.0
+  dio: ^4.0.6
+  json_serializable: ^6.2.0
+  get: ^4.6.5
 
 
   # The following adds the Cupertino Icons font to your application.
